@@ -1,0 +1,6 @@
+name: "espanso-bash-runner"
+title: "Espanso Bash Runner"
+description: Run Bash commands using Espanso.
+version: 0.1.0
+author: Matthew Spangler
+tags: ["bash", "shell", "regex"]

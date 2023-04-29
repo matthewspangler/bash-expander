@@ -1,0 +1,8 @@
+matches:
+  - regex: ";;bash (?P<shcmd>.*);;"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $ESPANSO_SHCMD | /bin/bash"
